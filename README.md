@@ -10,11 +10,18 @@ This week in class we went over some basic statistics, learned some Python progr
 
 For our first project, we're going to take a look at SAT and ACT scores around the United States. Suppose that the College Board - the organization that administers the SAT - seeks to improve the participation rate of its exams. Your presentation should be geared toward **non-technical** executives with the College Board and you will use, at minimum, the provided data to make recommendations about how the College Board might work to increase the participation rates of these exams.
 
+**It is strongly encouraged that you do additional research to support your recommendations.** At minimum, you should investigate trends in the data for **6** states of interest (try to pick states that represent unique instances in the dataset). Choose at least **2** of these states that have interesting participation rates and do some research to find if there are any explanations as to *why* students may participate in these tests.
+
+
 **Goal**: A Jupyter notebook that describes your data with visualizations & statistical analysis.
 
-**Goal**: A 5-7 minute presentation targeted to your hypothetical client that highlights your findings.
+**Goal**: A 3-5 minute presentation targeted to your hypothetical client that highlights your findings.
 
-**Goal**: Your Jupyter notebook hosted on your personal static site.
+**Goal**: Your Jupyter notebook & slides hosted on your personal Github.
+
+**Goal**: A README.md file (replacing this file) the provides a brief overview of your project.
+
+**Stretch Goal**: A fully revised Jupyter notebook that reads as a analytical report rather than a classroom assignment.
 
 ---
 
@@ -26,7 +33,7 @@ Your work must _at a minimum_:
 - Perform methods of exploratory data analysis, including:
   - Use Matplotlib to create visualizations
   - Use NumPy to explore distributions of individual variables and relationships among pairs of variables
-- Display your cleaned Jupyter notebook on a personal static website.
+- Display your cleaned Jupyter notebook on a personal static website (your personal Github).
 
 #### ***Bonus:***
  - Recreate all of your MatPlotLib graphs in Seaborn!
@@ -41,10 +48,11 @@ While there are very specific requests in the starter code, these are only requi
 ### Necessary Deliverables / Submission
 
 - Materials must be submitted in a clearly commented Jupyter notebook.
-- Notebook must be submitted via pushing to your remote repo.
-- Presentation must be submitted via Slack (for a PowerPoint file) or shared via a Google Form.
-- Your notebook and presentation slides must be additionally hosted on your personal static site.
-- **Materials must be submitted by 10:00 AM on Friday, August 10th.**
+- Project must be submitted via pushing to your remote repo and making a pull request to the instructor's fork.
+- Presentation must be submitted as a PDF in your Github repo.
+- You should replace this README.md file with a brief overview of your project.
+- Your notebook, README, and presentation slides must be additionally hosted on your personal Github account.
+- **Materials must be submitted by 9:00 AM on Friday, August 10th.**
 
 ---
 
@@ -69,11 +77,11 @@ These data give average SAT and ACT scores by state, as well as participation ra
 
 ### Presentation Structure
 
-- 5-7 minutes long.
-- Use PowerPoint or some other visual aid.
+- 3-5 minutes long.
+- Use Google Slides of Keynote for visual aid.
 - Consider the audience. Assume you are presenting to non-technical executives with the College Board (the organization that administers the SATs).
 - Start with the guiding question/big idea.
-- Talk about your procedure/methodology (high level, no need to show code unless you found a useful method to share).
+- Talk about your procedure/methodology (high level, **NO CODE**).
 - Talk about your findings/answers to prompts (include visuals).
 - Conclude - highlight any next steps, further questions, what you would do with more time, additional data that would be useful.
 
@@ -84,7 +92,7 @@ Be sure to rehearse and time your presentation before class.
 ### Suggested Ways to Get Started
 
 - Read in your datasets.
-- Try out a few NumPy commands to describe your data.
+- Try out a few NumPy/Pandas commands to describe your data.
 - Write pseudocode before you write actual code. Thinking through the logic of something helps.  
 - Read the documentation for whatever technologies you use. Learning how to read documentation is crucial to your success - and oftentimes the documentation will include a tutorial you can follow!
 - Document **everything**.
@@ -125,12 +133,25 @@ As a best practice, consider the following points when preparing your project.
 
 Your final assessment ("grade" if you will) will be calculated based on a topical rubric (see below).  For each category, you will receive a score of 0-3.  From the rubric you can see descriptions of each score and what is needed to attain those scores.
 
-The four categories for this rubric are:
+The six categories for this rubric are:
 
 - [Organization](#organization)
 - [Data Structures](#data-structures)
 - [Python Syntax and Control Flow](#python-syntax-and-control-flow)
 - [Probability and Statistics](#probability-and-statistics)
+- [Presentation](#presentation)
+- [Mock Interview](#mock-interview)
+
+#### Interpretting Grades
+
+**Do not expect to get a perfect score.** I grade hard so that you can know where I feel you can best invest your time and efforts as you revise projects for your portfolio. I almost never score things as 3 unless I'm really blown away by how well you completed a particular task. As long as you pass, your grade is unimportant and in no way negatively impacts your progress in the course. Use these scores as guidelines toward portfolio-readiness.
+
+| Total Score | Interpretation |
+| --- | --- |
+| <6 | Please contact your instructor to discuss resubmission of this project |
+| 6+ | Passing, but needs significant work for portfolio |
+| 12+ | Great! Minor revisions should result in a solid portfolio piece |
+| 18 | Portfolio ready (but give it a read for typos) |
 
 
 #### Organization
@@ -180,3 +201,31 @@ Descriptive and inferential statistics are calculated and applied where appropri
 | 1 | Approaching Expectations | 1. Descriptive statistics are present in some cases <br> 2. Inferential statistics are present in some cases <br> 3. Probabilities or statistics are somewhat relevant to the analysis context |
 | 2 | Meets Expectations | 1. Descriptive statistics are calculated in all relevant situations <br> 2. Inferential statistics are calculated in all relevant situations <br> 3. Probabilities or statistics are relevant to the analysis |
 | 3 | Exceeds Expectations | 1. Descriptive statistics are calculated, interpreted and visualized (where appropriate) <br> 2. Inferential statistics are calculated, interpreted and visualized (where appropriate) <br> 3. Probabilities or statistics are leveraged to draw meaningful or insightful conclusions |
+
+
+#### Presentation
+
+The goal, methodology and results of your work are presented in a clear, concise and thorough manner.  The presentation is appropriate for the specified audience, and includes relevant and enlightening visual aides as appropriate. 
+
+**NOTE**: You will be required to ask **3** questions during the course of your peers' presentations and will be required to submit a feedback form for each of your peers. Failure to do either of these tasks will result in being docked **1** point on your overall project grade.
+
+**EVEN MORE IMPORTANT NOTE**: If you are late to class on presentation day, I will consider you to have *missed your presentation* and you will receive a **0**. You will still be required to give a presentation. Show up early and show professional courtesy to your peers.
+
+| Score | Status | Examples |
+|-------|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0 | Does not Meet Expectations | 1. The problem was not well explained or ambiguous. <br> 2. The level of technicality was far above or below the target audience. <br> 3. The presentation went substantially over or under time. <br> 4. The speaker's voice was difficult to hear of unclear. <br> 5. The presentation visuals did not seem to support the talk. |
+| 1 | Approaching Expectations | 1. The problem was stated but was not 100% clear. <br> 2. The level of technicality was was good at times, but too low or too high at other times given the target audience. <br> 3. The presentation was given went slightly over or under time. <br> 4. The speaker's voice was at times difficult to understand. <br> 5. The presentation visuals were generally helpful, but some of them were either too complex or disconnected from the narrative. |
+| 2 | Meets Expectations | 1. The problem was framed appropriately for the audience. <br> 2. The level of technicality was appropriate to the target audience. <br> 3. The presentation was given within the allocated timeframe. <br> 4. The speaker's voice had volume and clarity. <br> 5. The presentation visuals were helpful and supportive. |
+| 3 | Exceeds Expectations | 1. The problem was expertly stated and compelling. <br> 2. The level of technicality was perfect for the target audience. <br> 3. The presentation was given within the allocated timeframe and paced evenly throughout. <br> 4. The speaker's voice was clear, understandable and consistent. <br> 5. The presentation visuals provided distinct insight, supported the speaker from the background, and were not distracting. |
+
+
+#### Mock Interview
+
+Candidate is able to summarize the core methods and findings of the project in **LESS THAN 3 minutes**. (You will be timed and stopped at 3 minutes). Candidate demonstrates conceptual understanding of methods used in follow up questions.
+
+| Score | Status | Examples |
+|-------|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0 | Does not Meet Expectations | 1. Candidate has not finished talking at 3 minutes. <br> 2. Candidate cannot answer questions about methods used in project. <br> 3. Candidate does not discuss concepts in terms appropriate for their interviewer. |
+| 1 | Approaching Expectations | 1. Project summary is appropriately brief in time, but too broad or specific. <br> 2. Answers to some questions are unclear or ambiguous. <br> 3. Most terms used are appropriate for the audience, but may stumble trying to explain complex methods. |
+| 2 | Meets Expectations | 1. Project summary is less than 3 minutes and touches briefly on all important aspects of project. <br> 2. Questions are answered appropriately and succinctly. <br> 3. Candidate discusses complex concepts in terms appropriate for level of interviewer. |
+| 3 | Exceeds Expectations | 1. A brief, engaging project summary that touches on highlights that guide follow up questions. <br> 2. Answers to questions demonstrate mastery of concepts. <br> 3. Explanations of complex concepts are enlightening. |
