@@ -8,4 +8,4 @@ Considerations for increasing participations rates are from ACT and SAT Data and
 
 ## Running the presentation
 
-Change into the presentation folder and run 'python -m SimpleHTTPServer 8000'
+Change into the presentation folder and run 'python -m SimpleHTTPServer 8000'; then open a browser and set the URL to [http://localhost:8000.](http://localhost:8000)
